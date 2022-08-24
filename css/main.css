@@ -1,0 +1,114 @@
+
+body{
+    width: 100%;
+    height: 100%; 
+    background-image: url(../img/5919011a.bmp); 
+    background-size: cover;
+}
+
+.title{
+    width: 100%;
+    height: 100%; 
+    color: rgb(116, 92, 61);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold; 
+    text-align: center; 
+   
+}
+
+.row{
+    display: flex; 
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    background-size: 100% 100%;
+    /* margin: auto; */
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px 30px 30px 30px;
+}
+.profile img{
+    width: 100%;
+    height: 100%; 
+}
+
+.caption {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(163, 104, 31, 0.926); 
+  color: antiquewhite;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight:bold; 
+  text-align: center;
+  transition: all 1s;
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  right: 100%;
+
+}
+
+.socialLinks{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 100%;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+.profile:hover .caption{
+    top: 0%;
+    right: 0%;
+    transform: rotate(360deg);
+}
+
+.profile:hover .socialLinks{
+    top: 85%;
+}
+.caption h2{
+    padding: 8px 0px;
+}
+.caption p{
+    padding: 0px 5px;
+}
+
+.caption a{
+    color: rgb(252, 244, 241);
+}
+.caption i{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.caption:hover{
+    opacity: 1;
+    transition: all 1s;
+
+} 
+
+/* .test {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    opacity: 0;
+} */
+
+
+/* div {
+    width :200px;
+    height: 200px;
+    background-image: url(../img/8dlfe0lq.bmp);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 200px;
+   
+}
+
+div:hover {
+   transform: translateX(100px); 
+} */
